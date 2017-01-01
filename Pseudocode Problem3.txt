@@ -1,0 +1,32 @@
+Problem 3
+
+set product number to 0
+set quantity sold to 0
+set sum of all sales to 0
+
+prompt user to enter a product number ranging from 1 to 5
+user inputs product number
+
+while product number is different from -1 (which is sentinel value)
+	prompt user to enter quantity sold
+	user inputs quantity
+	switch product number
+		in case product is 1
+			the sum is current value of sum + quantity*price
+			exit switch statement
+		in case product is 2
+			the sum is current value of sum + quantity*price
+			exit switch statement
+		in case product is 3
+			the sum is current value of sum + quantity*price
+			exit switch statement
+		in case product is 4
+			the sum is current value of sum + quantity*price
+			exit switch statement
+		in case product is 5
+			the sum is current value of sum + quantity*price 
+			exit switch statement
+	prompt user to enter new product number
+	user inputs new product number
+
+output the final sum

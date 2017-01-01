@@ -1,0 +1,21 @@
+Problem 2.a
+
+set initial value to 0
+set increment to 0
+
+prompt user to enter new value
+user inputs new value
+
+if the value entered is equal to 0 or 1
+	set factorial of these values to 1 (by theorem)
+	output factorial of 1 or 0 is equal to 1
+
+else if the value is negative
+	output error because factorial to negative values do not exist
+
+else if the value is positive and and different from 1 and 0
+	set factorial equal to value
+	while the increment is smaller than the input value
+		calculate factorial ( current factorial*(value-increment)
+		increase increment by 1
+	output the final factorial assigned by the loop

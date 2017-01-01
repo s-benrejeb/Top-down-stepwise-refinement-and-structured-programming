@@ -1,0 +1,21 @@
+Problem 2.b
+
+set input number to be initially 0
+
+prompt user to enter new number
+user inputs new number
+
+if the number is strictly bigger than 1
+	Set factorial equal to input number
+	Set increment to 1
+	For increment starting at 1 and increasing by 1 after each loop, 
+	as long as it is strictly smaller than the input number
+		calculate factorial (current factorial * (number-increment))
+	output the final factorial value
+
+else if the input number is equal to 0 or 1
+	set factorial to 1 (by theorem)
+	output the factorial
+
+else if input number is negative
+	output error message

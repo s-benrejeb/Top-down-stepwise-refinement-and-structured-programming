@@ -1,0 +1,13 @@
+Problem 1
+
+set initial sales to 0
+set initial salary to 0
+
+prompt user to enter the sales made for that week
+input sales
+
+while the sales value is different from the sentinel value (which is -1)
+	calculate the salary (200 base + 9% commission)
+	output salary calculated
+	prompt user for new sales
+	user inputs new sales

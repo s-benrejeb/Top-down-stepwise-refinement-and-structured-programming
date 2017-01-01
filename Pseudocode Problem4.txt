@@ -1,0 +1,17 @@
+Problem 4
+
+set number to 0
+set increment variable to 0
+set sum to 0
+
+prompt user to enter the length of sequence of numbers to be summed
+user inputs number
+
+for increment variable starting at 1, increasing by 1 after every loop,
+as long as increment is smaller or equal to input number
+	set digit to 0
+	prompt user to enter new digit
+	user inputs new digit
+	set sum equal to current sum + input digit
+
+output final sum
